@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+nav {
+   height: 70px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 16px;
+   background-color: #cafdff;
+}
+
+header {
+    background-color: #eadcff;
+    height: 100vh;
+}
+
+a {
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 300px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
