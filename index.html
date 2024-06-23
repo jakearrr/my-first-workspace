@@ -18,6 +18,8 @@
         </ul>
       </nav>
       <header>
+    <div class="row">
+
         <div>
           <h1>Best place to learn frontend</h1>
           <p class="subheader">
@@ -26,6 +28,7 @@
           </p>
           <button>Start Now</button>
         </div>
+    </div>
         <figure>
           <img src="./assets/laptop.png" alt="Home page image" />
         </figure>
@@ -36,20 +39,23 @@
       <section>id="about"></section>
       <h2>About</h2>
       <div>
-        <p>
+    <div class="section__description">
+        <div class="section__description--wrapper"
+        <p class="section__description--para">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
           porro veritatis, saepe voluptas sapiente blanditiis eligendi nam
           labore. Quae quibusdam excepturi voluptas corporis quam quod
           distinctio accusamus perferendis modi non.
         </p>
-        <p>
+        <p class="section__description--para">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
           porro veritatis, saepe voluptas sapiente blanditiis eligendi nam
           labore. Quae quibusdam excepturi voluptas corporis quam quod
           distinctio accusamus perferendis modi non.
         </p>
       </div>
-      <figure>
+      <figure class="about__img--wrapper">
+    </div>
         <img src="./assets/about.jpg" alt="About image" />
       </figure>
       <section>
@@ -59,13 +65,13 @@
           <img src="./assets/discord.png" alt="Discord" />
         </figure>
         <div>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             eos tenetur ipsa ab consectetur maiores. Tenetur amet iste minima,
             totam, sapiente repellendus dicta sit aperiam nostrum doloribus
             beatae sequi! Alias?
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
             porro veritatis, saepe voluptas sapiente blanditiis eligendi nam
             labore. Quae quibusdam excepturi voluptas corporis quam quod
@@ -73,27 +79,28 @@
           </p>
         </div>
       </section>
-
+    <div>
       <section>
         id="contact">
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="jane@example.com" />
+          <input type="email" placeholder="jane@example.com" />
           <span>Message</span>
           <input type="text" placeholder="Nice website. Let's connect!" />
-          <button>Submit</button>
+          <button>Contact Us!</button>
         </form>
+    </div>
       </section>
     </main>
 
     <footer>
-      <img src="./assets/FES.svg" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#courses">Courses</a>
+      <img class="footer__logo" src="./assets/FES.svg" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="#courses">Courses</a>
         <div>
           <p>Copyright Frontend Simplified</p>
         </div>
